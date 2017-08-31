@@ -1,3 +1,4 @@
+/* Joan Torres: Intentar siempre que las images se encuentren alojadas fuera de nuestro servidor, asi como incluir el atributo alt en dichas imagenes*/
 /* Images */
 .profile-pick{
 	background-image: url(../img/ProfilePic.jpg);
@@ -72,7 +73,7 @@
 	perspective: 800px;
 	transition: all 0.4s ease-in-out;
 }
-
+/* usar siempre que sea posible los prefijos de compatibilidad -webkit-, -moz-, or -o- */
 .t-info{
 	height:180px;
 	width:180px;
